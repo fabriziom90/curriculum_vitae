@@ -3,10 +3,34 @@
     font-style: italic
 } 
 
-#color-red{
+#text-red{
     color:red;
 }
 
-#color-green{
+.text-red{
+    color:red
+}
+
+.text-orange{
+    color: orange
+}
+
+.text-darkgrey{
+    color: darkgrey
+}
+
+#text-green{
     color: green
+}
+
+#text-brown{
+    color: brown
+}
+
+.background-grey{
+    background-color: grey;
+}
+
+ol{
+    color: violet
 }
