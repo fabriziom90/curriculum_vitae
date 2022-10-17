@@ -1,10 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: italic
+}
+
 #primary-title{
     color:blue;
-    font-style: italic
+    font-style: italic;
+    text-align: center;
 } 
 
-#text-red{
+.right-title-red{
     color:red;
+    text-align: right;
+    text-decoration: overline underline line-through
+}
+
+.background-carbonara{
+    /* background-image: url('https://blog.giallozafferano.it/albe/wp-content/uploads/2020/08/15FA1142-B5FA-410C-878B-2B8745B85F64_001-960x949.jpg');
+    background-size: 100%; */
+    background: url('https://blog.giallozafferano.it/albe/wp-content/uploads/2020/08/15FA1142-B5FA-410C-878B-2B8745B85F64_001-960x949.jpg') 100% no-repeat;
+    height: 500px;
+    width: 500px; 
+
+}
+
+a{
+    text-decoration: none
 }
 
 .text-red{
@@ -28,9 +57,37 @@
 }
 
 .background-grey{
-    background-color: grey;
+    background-color: rgb(0, 255, 128);
+    /*background-color: rgba(0,255,128,0.5)*/
 }
 
 ol{
     color: violet
+}
+
+.father-div{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.son-div{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.box{
+    border: solid 2px #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.margin-20px{
+    margin: 20px;
+    padding: 20px
 }
